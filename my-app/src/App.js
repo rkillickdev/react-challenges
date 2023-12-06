@@ -1,9 +1,11 @@
 import css from './App.module.css';
-import Content from './components/Content';
+// import Content from './components/Content';
 import Sidebar from './components/Sidebar';
 // import NavBarSimple from './components/NavBarSimple';
 import NavBarForm from './components/NavBarForm';
-import ContentHooks from './components/ContentHooks';
+// import ContentHooks from './components/ContentHooks';
+// import { ContentAPI } from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       < Sidebar />
       < NavBarForm />
       {/* <Content /> */}
-      <ContentHooks />
+      {/* <ContentHooks /> */}
+      {/* <ContentAPI /> */}
+      <ContentAPIHooks />
     </div>
   );
 }
