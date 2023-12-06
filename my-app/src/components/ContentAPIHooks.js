@@ -7,8 +7,8 @@ import API_KEY from "../secrets";
 
 function ContentAPIHooks() {
     const [isLoaded, setIsLoaded] = useState(false);
-    const [posts, setPosts] = useState(false);
-    const [savedPosts, setSavedPosts] = useState(false);
+    const [posts, setPosts] = useState([]);
+    const [savedPosts, setSavedPosts] = useState([]);
 
     useEffect(() => {
         fetchImages()
